@@ -1,0 +1,28 @@
+.checkout {
+    display: grid;
+    grid-template-columns: 1fr 40rem;
+    grid-template-rows: auto;
+    gap: 2rem;
+    padding: 2rem;
+    background: #fff;
+    height: max-content;
+}
+
+.checkout_ad {
+    width: 100%;
+    height: 16rem;
+    object-position: top;
+    object-fit: cover;
+}
+
+.checkout__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.checkout__title {
+    margin-right: 5rem;
+    padding: 1rem 1rem 2rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
